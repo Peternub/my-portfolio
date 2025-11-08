@@ -11,6 +11,15 @@
   ],
   "routes": [
     {
+      "src": "/static/(.*)",
+      "headers": { "cache-control": "s-maxage=31536000,immutable" },
+      "dest": "/static/$1"
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "/images/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }

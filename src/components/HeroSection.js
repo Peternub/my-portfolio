@@ -28,7 +28,7 @@ const HeroSection = () => {
           <div className="hero-book">
             <div className="book-container">
               <img 
-                src={process.env.PUBLIC_URL + '/images/MyBook.png'} 
+                src="/images/MyBook.png" 
                 alt="Мои работы" 
                 className="book-image"
               />
