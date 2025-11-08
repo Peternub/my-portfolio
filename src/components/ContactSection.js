@@ -42,7 +42,7 @@ const ContactSection = () => {
   return (
     <section className="contact-section">
       <div className="container">
-        <h2>Обсудить автоматизацию вашего бизнеса</h2>
+        <h2>Хотите заказать сайт?</h2>
         <div className="contact-content">
           <div className="contact-info">
             <h3>Контактная информация</h3>
@@ -76,7 +76,7 @@ const ContactSection = () => {
             </div>
             
             <div className="form-group">
-              <label htmlFor="message">Опишите ваши бизнес-процессы, которые хотели бы автоматизировать</label>
+              <label htmlFor="message">Описание</label>
               <textarea
                 id="message"
                 name="message"
@@ -87,7 +87,7 @@ const ContactSection = () => {
               ></textarea>
             </div>
             
-            <button type="submit" className="submit-btn">Отправить запрос на автоматизацию</button>
+            <button type="submit" className="submit-btn">отправить сообщение</button>
           </form>
         </div>
       </div>
