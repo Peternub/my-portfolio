@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const ContactSection = () => {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
+    phone: '',
     message: ''
   });
 
@@ -18,8 +18,8 @@ const ContactSection = () => {
     e.preventDefault();
     
     try {
-      // Замените URL на ваш URL из Google Apps Script
-      const response = await fetch('URL_ВАШЕГО_GOOGLE_SCRIPT', {
+      // Отправка данных через n8n webhook
+      const response = await fetch('https://petuam.app.n8n.cloud/webhook/web', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -28,8 +28,8 @@ const ContactSection = () => {
       });
       
       if (response.ok) {
-        alert('Спасибо за ваш запрос! Я свяжусь с вами в ближайшее время для обсуждения возможностей автоматизации ваших бизнес-процессов.');
-        setFormData({ name: '', email: '', message: '' });
+        alert('Спасибо за ваш запрос! Я свяжусь с вами в ближайшее время для обсуждения создания вашего сайта.');
+        setFormData({ name: '', phone: '', message: '' });
       } else {
         alert('Произошла ошибка при отправке запроса. Пожалуйста, попробуйте еще раз.');
       }
@@ -64,12 +64,12 @@ const ContactSection = () => {
             </div>
             
             <div className="form-group">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="phone">Номер телефона</label>
               <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
+                type="tel"
+                id="phone"
+                name="phone"
+                value={formData.phone || ''}
                 onChange={handleChange}
                 required
               />
