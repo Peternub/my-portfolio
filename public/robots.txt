@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+Sitemap: https://pet-web-portfolio.vercel.app/sitemap.xml
+
+Host: pet-web-portfolio.vercel.app
