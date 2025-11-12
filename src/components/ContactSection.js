@@ -42,7 +42,7 @@ const ContactSection = () => {
   return (
     <section className="contact-section">
       <div className="container">
-        <h2>Хотите заказать сайт?</h2>
+        <h2>Хотите заказать сайт? Или не понравились шаблоны и вы хотите уникальный сайт? Или хотите заказать веб приложение? Тогда напишите мне!</h2>
         <div className="contact-content">
           <div className="contact-info">
             <h3>Контактная информация</h3>
