@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from './HeroSection';
 import ProjectsSection from './ProjectsSection';
 import PricingSection from './PricingSection';
+import ReviewsSection from './ReviewsSection';
 import ContactSection from './ContactSection';
 
 const MainContent = () => {
@@ -10,6 +11,7 @@ const MainContent = () => {
       <HeroSection />
       <ProjectsSection />
       <PricingSection />
+      <ReviewsSection />
       <ContactSection />
     </main>
   );

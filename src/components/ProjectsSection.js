@@ -34,13 +34,21 @@ const ProjectsSection = () => {
       technologies: "React, JavaScript, CSS",
       image: process.env.PUBLIC_URL + "/images/Design Card.png",
       demoUrl: "https://alexandra-port.vercel.app/"
+    },
+    {
+      id: 5,
+      title: "fish-blue",
+      description: "",
+      technologies: "React, JavaScript, CSS",
+      image: process.env.PUBLIC_URL + "/images/fish-blue.png",
+      demoUrl: "#"
     }
   ];
 
   return (
     <section className="projects-section">
       <div className="container">
-        <h2>Мои проекты</h2>
+        <h2>Шаблоны</h2>
         <div className="projects-grid">
           {projects.map(project => (
             <div key={project.id} className="project-card">
