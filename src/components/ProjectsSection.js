@@ -25,7 +25,7 @@ const ProjectsSection = () => {
       description: "",
       technologies: "React, JavaScript, CSS",
       image: process.env.PUBLIC_URL + "/images/Wash Working.png",
-      demoUrl: "#"
+      demoUrl: "https://wash-wind-portfolio.vercel.app/"
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ const ProjectsSection = () => {
       description: "",
       technologies: "React, JavaScript, CSS",
       image: process.env.PUBLIC_URL + "/images/Design Card.png",
-      demoUrl: "#"
+      demoUrl: "https://alexandra-port.vercel.app/"
     }
   ];
 
