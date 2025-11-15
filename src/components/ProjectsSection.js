@@ -6,34 +6,34 @@ const ProjectsSection = () => {
     {
       id: 1,
       title: "alex-foto",
-      description: "Фотография и портфолио",
+      description: "",
       technologies: "React, JavaScript, CSS",
       image: process.env.PUBLIC_URL + "/images/alex-foto.jpg",
       demoUrl: "https://me-port-pied.vercel.app"
     },
     {
       id: 2,
-      title: "alina-volkova",
-      description: "Персональный сайт и портфолио",
-      technologies: "React, JavaScript, CSS",
-      image: process.env.PUBLIC_URL + "/images/alina-volkova.jpg",
-      demoUrl: "https://alina-volkova.vercel.app"
-    },
-    {
-      id: 3,
       title: "sofia-rose",
-      description: "Персональный сайт и портфолио",
+      description: "",
       technologies: "React, JavaScript, CSS",
       image: process.env.PUBLIC_URL + "/images/sofia-rose.jpg",
       demoUrl: "https://ppport1.vercel.app"
     },
     {
-      id: 4,
-      title: "uncle-kolya",
-      description: "Сайт ресторана",
+      id: 3,
+      title: "Wash Working",
+      description: "",
       technologies: "React, JavaScript, CSS",
-      image: process.env.PUBLIC_URL + "/images/uncle-kolya.jpg",
-      demoUrl: "https://uncle-kolya-restaurant.vercel.app"
+      image: process.env.PUBLIC_URL + "/images/Wash Working.png",
+      demoUrl: "#"
+    },
+    {
+      id: 4,
+      title: "Design Card",
+      description: "",
+      technologies: "React, JavaScript, CSS",
+      image: process.env.PUBLIC_URL + "/images/Design Card.png",
+      demoUrl: "#"
     }
   ];
 
