@@ -19,7 +19,7 @@ const ContactSection = () => {
     
     try {
       // Отправка данных через n8n webhook
-      const response = await fetch('https://petuam.app.n8n.cloud/webhook/web', {
+      const response = await fetch('https://fgnmfgnm.app.n8n.cloud/webhook/web', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
